@@ -1,0 +1,7 @@
+<p>
+  <strong>Tiles List:</strong>
+  <app-tile *ngFor="let item of items"
+                    [showName]="item.show.name"
+                    [showGenres]="item.show.genres"
+                    [showPoster]="item.show.image.medium"></app-tile>
+</p>
